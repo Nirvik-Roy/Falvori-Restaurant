@@ -4,7 +4,8 @@ const Navbar = () => {
   return (
     <>
     <div style={{
-      overflow:'hidden'
+      overflow:'hidden',
+      background:'#f5f5f5'
     }}>
   <div className='navbar_container'>
         <p>Fresco / Flavori</p>

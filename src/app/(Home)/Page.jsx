@@ -1,10 +1,22 @@
 import HomeBanner from "./HomeBanner"
 import './Home.css'
+import FixedContent from "./FixedContent"
+import SmoothScroll from "./SmoothScroll"
+
 
 const Page = () => {
   return (
     <>
-      <HomeBanner/>
+      <FixedContent />
+      <HomeBanner />
+
+
+  
+
+
+
+
+
     </>
   )
 }

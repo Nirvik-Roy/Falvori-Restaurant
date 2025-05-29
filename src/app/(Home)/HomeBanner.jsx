@@ -11,7 +11,7 @@ const HomeBanner = () => {
   useGSAP(() => {
     const tl = gsap.timeline()
     tl.to('.banner_img_div', {
-      height: '120vh',
+      height: '170vh',
       duration: '1',
       ease: 'power3.in',
       opacity: '1'
@@ -28,9 +28,9 @@ const HomeBanner = () => {
       opacity: '0',
     }, {
       duration: '1',
-      backgroundPositionY: '100%',
+      backgroundPositionY: '-350%',
       opacity: '1',
-      backgroundSize: 'cover',
+      
     })
 
     tl.to('.falvori_restaurant_head h1', {
@@ -51,7 +51,7 @@ const HomeBanner = () => {
       }
     })
     tl2.to('.banner_wrapper', {
-      y: '-5%',
+      y: '-20%',
       width: '100%',
       duration: '1',
       scrollTrigger: {
@@ -61,21 +61,33 @@ const HomeBanner = () => {
         scrub: 2,
       }
     })
+ 
 
   }, [])
   return (
     <>
-      <div className="falvori_restaurant_head">
+    <div style={{
+      height:'500vh',
+      zIndex:'9'
+    }}>
+    <div className='empty_div'></div>
+<div className="falvori_restaurant_head" >
         <h1>FLAVORI RESTAURANT</h1>
       </div>
-      <div className='banner_wrapper' style={{
-        borderTop: '5px solid white',
-        height: '100%',
-
+      <div style={{
+        background:'#f5f5f5',
+        height:'90vh'
       }}>
-        <div className="banner_img_div" ></div>
+   <div className='banner_wrapper' >
+        <div style={{
+        borderTop: '5px solid #f5f5f5',
+      }} className="banner_img_div"></div>
       </div>
-      <h1 >Hello</h1>
+      </div>
+   
+    </div>
+      
+    
     </>
   )
 }
