@@ -1,0 +1,29 @@
+.falvori_restaurant_head h1{
+    font-family: 'Sequencia', Arial, sans-serif;
+    font-size: 31vh;
+    text-align: center;
+    font-weight: 400;
+ 
+     transform: translateY(100%);
+     margin-bottom: -40px;
+}
+.falvori_restaurant_head{
+    overflow: hidden;
+       margin-top: 250px;
+}
+.banner_wrapper{
+    width: 95%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+  
+}
+.banner_img_div{
+    position: relative;
+    width: 40%;
+    background: url('https://static.tildacdn.com/tild3664-3161-4535-b465-313832633639/max1232617_A_delecta.jpg');
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}

@@ -1,0 +1,41 @@
+
+
+@font-face {
+  font-family:Sequencia ;
+  src: url('../../public/Fonts/Sequencia.otf'),url('../../public/Fonts/Sequencia.ttf');
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+::-webkit-scrollbar{
+  display: none;
+}
+h1,h2,h3,h4,h5,h6{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+p{
+   margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px; 
+}
+span{
+     margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px; 
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font:'Sequencia', Arial, sans-serif; 
+}
+
+
