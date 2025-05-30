@@ -28,10 +28,15 @@ const HomeBanner = () => {
       opacity: '0',
     }, {
       duration: '1',
-      backgroundPositionY: '-350%',
+      backgroundPositionY: '-200px',
       opacity: '1',
-      
+      backgroundSize:'cover'
+    
     })
+ 
+
+ 
+
 
     tl.to('.falvori_restaurant_head h1', {
       y: 0,

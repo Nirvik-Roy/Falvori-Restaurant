@@ -1,7 +1,7 @@
 import HomeBanner from "./HomeBanner"
 import './Home.css'
 import FixedContent from "./FixedContent"
-import SmoothScroll from "./SmoothScroll"
+
 
 
 const Page = () => {
@@ -9,14 +9,6 @@ const Page = () => {
     <>
       <FixedContent />
       <HomeBanner />
-
-
-  
-
-
-
-
-
     </>
   )
 }
