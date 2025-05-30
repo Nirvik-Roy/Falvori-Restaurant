@@ -32,3 +32,21 @@
     background-attachment: fixed;
 
 }
+.welcome_whole_wrapper{
+    height: 150vh;
+    background-color: #151515;
+    z-index: 999;
+    margin-top: 700px;
+    display: flex;
+    justify-content: center;
+    align-items:end ;
+}
+.welcome_img_wrapper{
+    width: 93%;
+    background: url('https://static.tildacdn.com/tild6663-6164-4566-b762-616133303038/max1232617_product_p.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 999;
+}

@@ -30,12 +30,12 @@ const HomeBanner = () => {
       duration: '1',
       backgroundPositionY: '-200px',
       opacity: '1',
-      backgroundSize:'cover'
-    
-    })
- 
+      backgroundSize: 'cover'
 
- 
+    })
+
+
+
 
 
     tl.to('.falvori_restaurant_head h1', {
@@ -66,33 +66,35 @@ const HomeBanner = () => {
         scrub: 2,
       }
     })
- 
+
+
 
   }, [])
   return (
     <>
-    <div style={{
-      height:'500vh',
-      zIndex:'9'
-    }}>
-    <div className='empty_div'></div>
-<div className="falvori_restaurant_head" >
-        <h1>FLAVORI RESTAURANT</h1>
-      </div>
       <div style={{
-        background:'#f5f5f5',
-        height:'90vh'
-      }}>
-   <div className='banner_wrapper' >
-        <div style={{
-        borderTop: '5px solid #f5f5f5',
-      }} className="banner_img_div"></div>
-      </div>
-      </div>
-   
-    </div>
       
-    
+        zIndex: '9'
+      }}>
+        <div className='empty_div'></div>
+        <div className="falvori_restaurant_head" >
+          <h1>FLAVORI RESTAURANT</h1>
+        </div>
+        <div style={{
+          background: '#f5f5f5',
+          height: '90vh'
+        }}>
+          <div className='banner_wrapper' >
+            <div style={{
+              borderTop: '5px solid #f5f5f5',
+            }} className="banner_img_div"></div>
+          </div>
+        </div>
+
+
+      </div>
+
+
     </>
   )
 }
