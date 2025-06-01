@@ -1,30 +1,34 @@
-.falvori_restaurant_head h1{
+.falvori_restaurant_head h1 {
     font-family: 'Sequencia', Arial, sans-serif;
     font-size: 31vh;
     text-align: center;
     font-weight: 400;
- 
-     transform: translateY(100%);
-     margin-bottom: -40px;
+
+    transform: translateY(100%);
+    margin-bottom: -40px;
 }
-.empty_div{
+
+.empty_div {
     height: 250px;
     width: 100%;
     background-color: #f5f5f5;
 }
-.falvori_restaurant_head{
+
+.falvori_restaurant_head {
     overflow: hidden;
     background-color: #f5f5f5;
-    
+
 }
-.banner_wrapper{
+
+.banner_wrapper {
     width: 98%;
     margin-inline: auto;
     display: flex;
     justify-content: center;
-    
+
 }
-.banner_img_div{
+
+.banner_img_div {
     position: relative;
     width: 40%;
     background: url('https://static.tildacdn.com/tild3664-3161-4535-b465-313832633639/max1232617_A_delecta.jpg');
@@ -32,21 +36,59 @@
     background-attachment: fixed;
 
 }
-.welcome_whole_wrapper{
+
+.welcome_whole_wrapper {
     height: 150vh;
     background-color: #151515;
-    z-index: 999;
     margin-top: 700px;
     display: flex;
     justify-content: center;
-    align-items:end ;
+    align-items: end;
+    overflow: hidden;
 }
-.welcome_img_wrapper{
+
+.welcome_img_wrapper {
     width: 93%;
     background: url('https://static.tildacdn.com/tild6663-6164-4566-b762-616133303038/max1232617_product_p.jpg');
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    z-index: 999;
+}
+
+.welcome_text_wrapper {
+    width: 30%;
+    font-size: 48px;
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 150%;
+    right: 80px;
+    z-index: 9999;
+    line-height: 60px;
+}
+
+.welcome_white_div {
+    width: 500px;
+    height: 260px;
+    background-color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 450px;
+    left: 60px;
+    z-index: 9999;
+    transform: translateY(100%)
+}
+
+.welcome_white_div p {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.welcome_white_div h6 {
+    font-weight: 500;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top: 170px;
 }
