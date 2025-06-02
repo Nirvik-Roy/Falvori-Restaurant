@@ -57,14 +57,17 @@
 
 .welcome_text_wrapper {
     width: 30%;
-    font-size: 48px;
+    font-size: 50px;
     color: white;
     font-family: sans-serif;
-    position: absolute;
-    top: 150%;
+    position: fixed;
+    top: 1050px;
     right: 80px;
     z-index: 9999;
     line-height: 60px;
+    letter-spacing: -2px;
+    zoom: 1.25;
+    
 }
 
 .welcome_white_div {
@@ -72,7 +75,7 @@
     height: 260px;
     background-color: white;
     padding: 10px 20px;
-    position: fixed;
+    position: absolute;
     top: 450px;
     left: 60px;
     z-index: 9999;

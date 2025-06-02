@@ -29,7 +29,7 @@ const Welcome = () => {
         trigger: '.welcome_whole_wrapper',
         start: 'top -10px',
         pin: true,
-        scrub: 2,
+        scrub: 4,
       }
     })
     tl.fromTo('.welcome_img_wrapper', {
@@ -50,13 +50,12 @@ const Welcome = () => {
 
 
     tl.to('.welcome_white_div',{
-      y:0
+      y:0,
+      
     })
     
     tl.to('.welcome_text_wrapper',{
-     top:'-100%',
-    
-   
+     top:'-1650px',
     },
 
     )
@@ -72,9 +71,12 @@ const Welcome = () => {
         </div>
 
                   <div className='welcome_text_wrapper'>
-            The atmosphere of romantic Venice reigns in our cozy restaurant, where every dish
+                  <p>
+ The atmosphere of romantic Venice reigns in our cozy restaurant, where every dish
             is prepared by hand and with special passion. Just like in old cafes on the narrow streets of a charming city. The chefs skillfully combine fresh and selected ingredients and deliver them to your table with love.
-            We work to ensure that you enjoy the dolce vita and the vibrant flavors of Italy</div>
+            We work to ensure that you enjoy the dolce vita and the vibrant flavors of Italy
+                  </p>
+           </div>
 
             <div className='welcome_white_div'>
               <p>
